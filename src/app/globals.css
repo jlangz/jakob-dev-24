@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 
-h2{
-  @apply text-2xl font-bold;
-}
-h3{
-  @apply text-xl font-bold;
+.background-gradient {
+  background: radial-gradient(
+    circle at top center,
+    hsla(261, 33%, 16%, 0.5) 0%,
+    hsla(222, 0%, 0%, 0) 50%,
+    hsla(222, 0%, 0%, 0) 100%
+  );
 }
